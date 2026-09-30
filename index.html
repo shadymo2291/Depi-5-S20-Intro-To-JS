@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Depi5-Session_20</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <!-- start change content section -->
+
+    <div id="demo">Lorem ipsum dolor sit amet.</div>
+
+    <!-- end change content section -->
+
+
+    <hr>
+    
+    
+    <!-- start show date section -->
+    
+    <button id="data" type="button" onclick="document.getElementById('result').innerHTML = Date()">Show Data</button>
+    <h5 id="result"></h5>
+
+    <!-- end show date section -->
+    
+    
+    <hr>
+
+
+    <!-- start bulb section -->
+
+    <div style="display: flex; align-items: center; gap: 10px;">
+
+      <button id="on" type="button" onclick="document.getElementById('bulb').src = 'img/pic_bulbon.gif'">Turn On The Light</button>
+      <img id="bulb" src="img/pic_bulboff.gif" alt="">
+      <button id="off" type="button" onclick="document.getElementById('bulb').src = 'img/pic_bulboff.gif'">Turn Off The Light</button>
+    
+    </div>
+
+
+    <!-- end bulb section -->
+
+
+    <!-- Bootstrap JS files -->
+    <script src="js/main.js"></script>
+</body>
+</html>
